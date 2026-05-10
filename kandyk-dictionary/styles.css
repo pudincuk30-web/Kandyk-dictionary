@@ -1,5 +1,5 @@
 h2, h3 {
-    margin: 0px;
+    margin: 10px 10px 4px 10px;
     padding: 0px;
 }
 
@@ -8,21 +8,40 @@ img {
     height:200px;
 }
 
+body{
+   background-color: rgb(94, 116, 163);
+   color:white
+   
+}
+
+ul, li::marker {
+    margin:0;
+    padding: 0;
+}
+
 .row {
     display: flex;
     flex-direction: row;
+    text-wrap: wrap;
 }
 
 .column {
     display: flex;
     flex-direction: column;
+    text-wrap: wrap;
 }
 
 .top {
     gap: 20px;
 }
 
-body{
-   background-color: rgb(94, 116, 163);
-   color:white
+.intro{
+    gap:8px;
+}
+.header {
+    border-bottom: 2px solid white;
+}
+
+.adescription, .atrivia {
+    min-width: 115px;
 }
