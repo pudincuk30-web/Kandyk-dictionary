@@ -47,6 +47,7 @@ ul, li {
 }
 .header {
     border-bottom: 2px solid white;
+    margin: 0 0 6px 0;
 }
 
 .adescription, .atrivia {
