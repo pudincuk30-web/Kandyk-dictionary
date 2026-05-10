@@ -18,3 +18,6 @@ img {
     flex-direction: column;
 }
 
+.top {
+    gap: 20px;
+}
