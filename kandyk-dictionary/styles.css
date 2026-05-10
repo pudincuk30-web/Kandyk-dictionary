@@ -39,6 +39,12 @@ ul, li {
 .intro{
     gap:8px;
 }
+
+.images {
+    padding: 5px;
+    border: 2px solid white;
+    flex: 0;
+}
 .header {
     border-bottom: 2px solid white;
 }
