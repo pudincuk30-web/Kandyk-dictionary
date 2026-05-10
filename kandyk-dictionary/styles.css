@@ -1,4 +1,4 @@
-h2, h3 {
+h2, h3{
     margin: 10px 10px 4px 10px;
     padding: 0px;
 }
@@ -14,9 +14,10 @@ body{
    
 }
 
-ul, li::marker {
-    margin:0;
+ul, li {
+    margin:0 0 8px 0;
     padding: 0;
+    list-style-type: none;
 }
 
 .row {
@@ -44,4 +45,17 @@ ul, li::marker {
 
 .adescription, .atrivia {
     min-width: 115px;
+}
+
+
+.cards {
+    gap:20px;
+}
+
+.card{
+    margin:initial;
+    padding:initial;
+    flex-grow: 0;
+    flex-basis:auto;
+    background-color: rgb(84, 90, 136);
 }
