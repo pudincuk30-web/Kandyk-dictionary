@@ -21,3 +21,8 @@ img {
 .top {
     gap: 20px;
 }
+
+body{
+   background-color: rgb(94, 116, 163);
+   color:white
+}
