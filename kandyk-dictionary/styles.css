@@ -54,7 +54,8 @@ ul, li {
 
 .card{
     margin:initial;
-    padding:initial;
+    padding:8px;
+    border: 2px double white;
     flex-grow: 0;
     flex-basis:auto;
     background-color: rgb(84, 90, 136);
