@@ -67,3 +67,8 @@ ul, li {
     flex-basis:auto;
     background-color: rgb(84, 90, 136);
 }
+
+.background {
+    background-color: black;
+    border: 2px solid white;
+}
