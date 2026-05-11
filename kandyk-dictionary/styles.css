@@ -71,4 +71,9 @@ ul, li {
 .background {
     background-color: black;
     border: 2px solid white;
+    padding: 8px;
+}
+
+.distance {
+    margin:200px 0;
 }
