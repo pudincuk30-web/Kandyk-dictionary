@@ -41,17 +41,23 @@ ul, li {
     gap: 20px;
     flex-wrap: wrap;
     flex-basis: 100vh;
+    justify-content: flex-start;
+    justify-items:flex-start;
 }
 
 .intro{
     gap:8px;
+    flex-basis: 400px;
+    flex-grow: 1;
+    border-left: 2px double white
 }
 
 .images {
     padding: 5px;
-    border: 2px solid white;
-    flex: 1;
-    justify-content: space-evenly;
+    flex-basis:200px;
+    max-width:400px;
+    flex-wrap: wrap;
+    flex-grow:1;
 }
 .header {
     border-bottom: 2px solid white;
