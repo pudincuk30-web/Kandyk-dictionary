@@ -1,11 +1,16 @@
-h2, h3{
+h2{
     margin: 10px 10px 4px 10px;
     padding: 0px;
+}
+
+h3{
+    margin: 10px 10px 4px 0px;
 }
 
 img {
     width:200px ;
     height:200px;
+    display:flex;
 }
 
 body{
@@ -23,7 +28,7 @@ ul, li {
 .row {
     display: flex;
     flex-direction: row;
-    text-wrap: wrap;
+    flex-basis: auto;
 }
 
 .column {
@@ -34,6 +39,8 @@ ul, li {
 
 .top {
     gap: 20px;
+    flex-wrap: wrap;
+    flex-basis: 100vh;
 }
 
 .intro{
@@ -43,7 +50,8 @@ ul, li {
 .images {
     padding: 5px;
     border: 2px solid white;
-    flex: 0;
+    flex: 1;
+    justify-content: space-evenly;
 }
 .header {
     border-bottom: 2px solid white;
@@ -52,6 +60,7 @@ ul, li {
 
 .adescription, .atrivia {
     min-width: 115px;
+    margin: 16px 0;
 }
 
 
