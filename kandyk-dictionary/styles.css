@@ -66,6 +66,8 @@ ul, li {
 
 .cards {
     gap:20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -73,7 +75,7 @@ ul, li {
     padding:8px;
     border: 2px double white;
     flex-grow: 0;
-    flex-basis:auto;
+    flex-basis:300px;
     background-color: rgb(84, 90, 136);
 }
 
